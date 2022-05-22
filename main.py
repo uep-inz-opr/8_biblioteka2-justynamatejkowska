@@ -1,4 +1,4 @@
-  class Library(object):
+class Biblioteka(object):
     def __init__(self):
         self.ksiazki = []
         self.egzemplarze=[]
@@ -69,7 +69,7 @@
         for komunikat in self.komunikaty:
             print(komunikat)
 
-library = Library()
+library = Biblioteka()
 
 k = int(input())
 
